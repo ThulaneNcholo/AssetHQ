@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Poppins Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Colors */
+      :root {
+        --primary-color: #775de2;
+        --background-color: #e4eaff;
+        --secondary-color: #4a4685;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .page-background {
+        background-color: var(--background-color);
+      }
+
+      /* Hero Component  */
+      .hero-background {
+        background-color: var(--primary-color);
+      }
+      .hero-image {
+        height: 700px;
+        width: 700px;
+        object-fit: contain;
+      }
+
+      .header-background {
+        background-image: url("images/heroimage2.png");
+        background-repeat: no-repeat;
+        object-fit: contain;
+      }
+
+      .secondary-heading {
+        color: var(--background-color);
+      }
+
+      .start-btn {
+        background-color: var(--background-color);
+      }
+
+      .phones_desing {
+        height: 700px;
+        width: 700px;
+        object-fit: contain;
+      }
+
+      .break-image1 {
+        height: 600px;
+        object-fit: contain;
+      }
+    </style>
+
+    <title>AssetHQ</title>
+  </head>
+  <body>
+    <!-- ============== Navbar ============= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/partnership.html">Partnership</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="hero-background pt-5">
+      <div class="d-flex container header-background">
+        <div class="d-flex align-items-center">
+          <div>
+            <h1 class="fw-bold">AssetHQ</h1>
+            <h3 class="fw-bold secondary-heading">
+              Your all-in-one solution for property management.
+            </h3>
+            <p class="mt-4" style="width: 70%">
+              A property management software helps you stay ahead of the
+              curve,be it risk,responsibility or revenue.
+            </p>
+            <button class="btn start-btn">GET STARTED</button>
+          </div>
+        </div>
+        <img src="/images/dashboard.png" alt="" class="hero-image" />
+      </div>
+    </div>
+
+    <div class="mt-5 container">
+      <div class="row">
+        <div class="col d-flex align-items-center">
+          <div>
+            <h1 class="fw-bold mb-4">What is AssetHQ ?</h1>
+            <p>
+              A property management software that simplifies and streamlines
+              property management tasks, such as managing rental units, tracking
+              rent payments, maintaining properties, and communicating with
+              tenants. It allows property owners, landlords, and property
+              managers to handle all aspects of their properties from one
+              central location.
+            </p>
+            <p class="mb-5">
+              Whether you’re a property owner, landlord, or a property manager,
+              managing multiple properties can be a daunting task. That’s why we
+              created <span class="fw-bold">AssetHQ</span> , a comprehensive
+              property management software that can simplify the management
+              process for you.
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="/images/picture1.png" alt="" class="phones_desing" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-5 page-background">
+      <div class="container d-flex">
+        <img src="/images/divider.png" alt="" class="break-image1" />
+        <div class="mt-5">
+          <h1 class="fw-bold mb-4">Benefits of AssetsHQ</h1>
+          <p>
+            The benefits of a property management software include increased
+            efficiency, improved communication with tenants and vendors, reduced
+            paperwork, and enhanced visibility into the performance of your
+            properties. With a property management software, property owners can
+            save time and resources and focus on growing their business.
+            Additionally, a property management software can help improve tenant
+            satisfaction by providing a more efficient and transparent rental
+            process.
+          </p>
+          <p>
+            Overall, a property management software is an essential tool for any
+            property owner or manager looking to simplify and streamline
+            property management tasks, enhance tenant satisfaction, and grow
+            their business.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
